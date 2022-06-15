@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="js.js" defer></script>
-    <title>Document</title>
+    <title>Sign In Site</title>
 </head>
 
 <body>
@@ -44,7 +44,7 @@
 
         </div>
 
-        <div class="form1">
+        <div class="right">
 
             <div class="textside">
                 <h1 class="texts">
@@ -52,36 +52,61 @@
                     realize your deepest dreams.
                     Sign up now to get started.
 
-                    You know you want to.
+                    <p class="text2">You <em>know</em> you want to.</p>
 
                 </h1>
             </div>
 
+
+
             <form action="" method="post">
-                <div>
-                    <label for="first_name">First Name:</label>
-                    <input type="text" name="first_name" id="first_name">
 
-                    <label for="last_name">Last Name:</label>
-                    <input type="text" name="last_name" id="last_name">
-                </div>
+                <div class="backs">
+                    <div class="letsdothis">
+                        <p class="letsdothis">Let's do this!</p>
+
+                    </div>
+                    <div class="names">
+                        <div class="fnames">
+
+                            <label for="first_name">First Name</label>
+                            <input type="text" name="first_name" id="first_name">
+                        </div>
+                        <div class="snames">
+                            <div class="names"></div>
+                            <label for="last_name">Last Name</label>
+                            <input type="text" name="last_name" id="last_name">
+                        </div>
+                    </div>
 
 
-                <div>
-                    <label for="user_email">Email Address:</label>
-                    <input type="email" id="user_email" name="email" placeholder="you@example.com">
+                    <div class="emailphone">
 
-                    <label for="Phone Number">Phone Number:</label>
-                    <input type="tel" id="amount" name="amount">
-                </div>
+                        <div class="email">
+                            <label for="user_email">Email Address</label>
+                            <input type="email" id="user_email" name="email" placeholder="you@example.com">
+                        </div>
 
-                <div>
+                        <div class="phone">
+                            <label for="Phone Number">Phone Number</label>
+                            <input type="tel" id="amount" name="amount">
+                        </div>
+                    </div>
 
-                    <label for="user_password">Password:</label>
-                    <input type="password" id="user_password" name="password">
+                    <div class="passwords">
 
-                    <label for="user_password">Confirm Password:</label>
-                    <input type="password" id="user_password" name="password">
+                        <div class="pass1">
+
+                            <label for="user_password">Password</label>
+                            <input type="password" class="error" id="user_password" name="password">
+                        </div>
+
+                        <div class="pass1">
+                            <label for="user_password">Confirm Password</label>
+                            <input type="password" class="error" id="user_password" name="password">
+                        </div>
+                    </div>
+
                 </div>
 
                 <div class="button">
@@ -89,6 +114,8 @@
                 </div>
 
             </form>
+
+            <div class="already">Already have an account? Log in</div>
 
 
 
