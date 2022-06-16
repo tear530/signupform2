@@ -70,12 +70,12 @@
                         <div class="fnames">
 
                             <label for="first_name">First Name</label>
-                            <input type="text" name="first_name" id="first_name">
+                            <input type="text" name="first_name" id="first_name" required>
                         </div>
                         <div class="snames">
                             <div class="names"></div>
                             <label for="last_name">Last Name</label>
-                            <input type="text" name="last_name" id="last_name">
+                            <input type="text" name="last_name" id="last_name" required>
                         </div>
                     </div>
 
@@ -84,12 +84,12 @@
 
                         <div class="email">
                             <label for="user_email">Email Address</label>
-                            <input type="email" id="user_email" name="email" placeholder="you@example.com">
+                            <input type="email" id="user_email" name="email" placeholder="you@example.com" required>
                         </div>
 
                         <div class="phone">
                             <label for="Phone Number">Phone Number</label>
-                            <input type="tel" id="amount" name="amount">
+                            <input type="tel" id="amount" name="amount" required>
                         </div>
                     </div>
 
@@ -97,13 +97,16 @@
 
                         <div class="pass1">
 
-                            <label for="user_password">Password</label>
-                            <input type="password" class="error" id="user_password" name="password">
+                            <label for="user_password1">Password</label>
+                            <input type="password" class="error error1" id="user_password1" name="password" required>
+                            <p class="pval">*Passwords do not match</p>
                         </div>
 
-                        <div class="pass1">
-                            <label for="user_password">Confirm Password</label>
-                            <input type="password" class="error" id="user_password" name="password">
+                        <div class="pass2">
+                            <label for="user_password2">Confirm Password</label>
+                            <input type="password" class="error error2" id="user_password2" name="password" required>
+                            <p class="pval pval2"></p>
+
                         </div>
                     </div>
 
