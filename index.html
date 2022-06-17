@@ -71,11 +71,13 @@
 
                             <label for="first_name">First Name</label>
                             <input type="text" name="first_name" id="first_name" required>
+                            <p class="nameVal">*Must be filled</p>
                         </div>
                         <div class="snames">
                             <div class="names"></div>
                             <label for="last_name">Last Name</label>
                             <input type="text" name="last_name" id="last_name" required>
+                            <p class="sNameVal">*Must be filled</p>
                         </div>
                     </div>
 
@@ -85,11 +87,14 @@
                         <div class="email">
                             <label for="user_email">Email Address</label>
                             <input type="email" id="user_email" name="email" placeholder="you@example.com" required>
+                            <p class="emailval">*Incorrect format</p>
                         </div>
 
                         <div class="phone">
                             <label for="Phone Number">Phone Number</label>
-                            <input type="tel" id="amount" name="amount" required>
+                            <input type="text" id="amount" pattern="[0-9]{11}" name="amount" required
+                                title="Please enter 11 digits.">
+                            <p class="phoneVal">*Must be 11 digits no spaces</p>
                         </div>
                     </div>
 
@@ -105,7 +110,7 @@
                         <div class="pass2">
                             <label for="user_password2">Confirm Password</label>
                             <input type="password" class="error error2" id="user_password2" name="password" required>
-                            <p class="pval pval2"></p>
+                            <p class="pval2">*Passwords do not match</p>
 
                         </div>
                     </div>
