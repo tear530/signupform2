@@ -12,24 +12,21 @@
     align-items: center;
     background-color: rgba(0, 0, 0, 0.4);
     max-width: 40vw;
-
     margin-top: 20vh;
-    height: 20vh;
+    height: 140px; 
+    font-family: CustomFont;
+    font-size: 40px;
+    color: white;
 
 
 }
 
 .heroimg {
-    max-width: 100px
+    max-width: 80px
+    
 }
 
 
-.odin {
-    font-family: CustomFont;
-    font-size: 100px;
-    color: white;
-
-}
 
 .main {
     display: flex;
@@ -49,6 +46,7 @@
 body {
     margin: 0;
     padding: 0px;
+   
 
 }
 
@@ -57,6 +55,11 @@ body {
     background-size: 40vw 100vh;
     background-repeat: no-repeat;
     width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    
 }
 
 .texts {
@@ -104,16 +107,21 @@ body {
 
 .creditsdiv {
     display: flex;
+    
     justify-content: center;
-    position: absolute;
-    bottom: 0%;
-    left: 13%;
+    align-items: center;
+    /* position: absolute; */
+    /* bottom: 0%; */
+    /* left: 13%; */
+    
 
 }
 
 .credits {
     color: white;
     font-size: 14px;
+    display: block;
+ 
 }
 
 a:visited {
@@ -149,7 +157,8 @@ input {
 .letsdothis {
 
     margin-top: 10px;
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 
@@ -195,7 +204,7 @@ input:focus {
 .pval, .nameVal, .sNameVal, .emailval, .phoneVal, .pval2 {
     color: red;
     margin-top: -15px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 
