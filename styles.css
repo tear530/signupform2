@@ -41,6 +41,7 @@
     width: 60vw;
     max-height: 100vh;
     background-color: whitesmoke;
+   
 }
 
 body {
@@ -51,7 +52,7 @@ body {
 }
 
 .leftside {
-    background-image: url("/image.jpg");
+    background-image: url("./image.jpg");
     background-size: 40vw 100vh;
     background-repeat: no-repeat;
     width: 40vw;
@@ -133,7 +134,7 @@ a:link {
 }
 
 input {
-    width: 100%;
+    width: 90%;
     border-radius: 4px;
     border: 1px solid #E5E7EB;
     padding: 4px 8px;
@@ -150,8 +151,6 @@ input {
     padding-left: 40px;
     padding-bottom: 40px;
     box-shadow: 0 5px 5px 4px rgb(0 0 0 / 10%);
-
-
 }
 
 .letsdothis {
@@ -184,6 +183,7 @@ label {
     display: flex;
     gap: 80px;
     margin-top: 0px;
+    width: 100%;
 }
 
 .emailphone {
