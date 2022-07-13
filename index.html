@@ -7,103 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="js.js" defer></script>
-    <title>Sign In Site</title>
+    <title>Document</title>
 </head>
 
 <body>
 
-    <div class="main">
-        <div class="leftside">
-            <div class="heroandtext">
-                <img class="heroimg" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="Logo">
-                <h1 class="odin">ODIN</h1>
-            </div>
-            <div class="creditsdiv">
-                <p class="credits">
-                    Photo by
-                    <a
-                        href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie
-                        West</a>
-                    on
-                    <a
-                        href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-                </p>
-            </div>
+    <div class="container">
+
+        <div class="sidebar">
+
+            <form class="form1" action="">
+                <div class="item"><label for="fname">Title?</label>
+                    <input type="text" id="title" name="fname" placeholder="Title">
+                </div>
+                <div class="item"><label for="fname">Author?</label>
+                    <input type="text" id="author" name="fname" placeholder="Author">
+                </div>
+                <div class="item"><label for="fname">Pages?</label>
+                    <input type="text" id="pages" name="fname" placeholder="Pages">
+                </div>
+                <input type="checkbox" id="read" name="vehicle1" value="No">
+                <label for="vehicle1">Read?</label>
+
+                <div><input type="button" value="ADD A NEW BOOK" id="but" class="submit"></div>
+            </form>
         </div>
 
-        <div class="right">
-            <div class="textside">
-                <h1 class="texts">
-                    This is not a real online service! You know you need something like this in your life to help you
-                    realize your deepest dreams.
-                    Sign up now to get started.
 
-                    <p class="text2">You <em>know</em> you want to.</p>
-
-                </h1>
+        <div class="main">
+            <div class="cards">
+                
             </div>
-            <form action="" method="post">
 
-                <div class="backs">
-                    <div class="letsdothis">
-                        <p class="letsdothis">Let's do this!</p>
-                    </div>
-                    <div class="names">
-                        <div class="fnames">
-
-                            <label for="first_name">First Name</label>
-                            <input type="text" name="first_name" id="first_name" required>
-                            <p class="nameVal">*Must be filled</p>
-                        </div>
-                        <div class="snames">
-                            <div class="names"></div>
-                            <label for="last_name">Last Name</label>
-                            <input type="text" name="last_name" id="last_name" required>
-                            <p class="sNameVal">*Must be filled</p>
-                        </div>
-                    </div>
-                    <div class="emailphone">
-
-                        <div class="email">
-                            <label for="user_email">Email Address</label>
-                            <input type="email" id="user_email" name="email" placeholder="you@example.com" required>
-                            <p class="emailval">*Incorrect format</p>
-                        </div>
-
-                        <div class="phone">
-                            <label for="Phone Number">Phone Number</label>
-                            <input type="text" id="amount" pattern="[0-9]{11}" name="amount" required
-                                title="Please enter 11 digits.">
-                            <p class="phoneVal">*Must be 11 digits no spaces</p>
-                        </div>
-                    </div>
-
-                    <div class="passwords">
-
-                        <div class="pass1">
-
-                            <label for="user_password1">Password</label>
-                            <input type="password" class="error error1" id="user_password1" name="password" required>
-                            <p class="pval">*Passwords do not match</p>
-                        </div>
-
-                        <div class="pass2">
-                            <label for="user_password2">Confirm Password</label>
-                            <input type="password" class="error error2" id="user_password2" name="password" required>
-                            <p class="pval2">*Passwords do not match</p>
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="button">
-                    <button class="submit" type="submit">Create Account</button>
-                </div>
-
-            </form>
-
-            <div class="already">Already have an account? Log in</div>
         </div>
 
     </div>
